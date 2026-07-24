@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Monstera Deliciosa",
+    "light": "bright",
+    "pets": "danger",
+    "water": "normal",
+    "img": "images/Monstera.jpg",
+    "desc": "Прекрасное тропическое растение с культовыми резными листьями. Любит яркий рассеянный свет."
+  },
+  {
+    "id": 2,
+    "name": "Snake Plant (Сансевьерия)",
+    "light": "shadow",
+    "pets": "danger",
+    "water": "rare",
+    "img": "images/Snake Plant.jpg",
+    "desc": "Абсолютно неубиваемый цветок. Идеален для тени (низкого освещения) и прощает редкий полив."
+  },
+  {
+    "id": 3,
+    "name": "Pothos (Эпипремнум)",
+    "light": "shadow",
+    "pets": "danger",
+    "water": "normal",
+    "img": "images/Pothos.webp",
+    "desc": "Красивая неприхотливая лиана. Отлично очищает воздух и быстро растет в любой комнате."
+  },
+  {
+    "id": 4,
+    "name": "Chlorophytum (Хлорофитум)",
+    "light": "bright",
+    "pets": "safe",
+    "water": "normal",
+    "img": "images/Chlorophytum.jpg",
+    "desc": "100% БЕЗОПАСНО ДЛЯ КОШЕК И СОБАК! Очень выносливое и полезное комнатное растение."
+  }
+]

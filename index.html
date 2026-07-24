@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <title>Росток</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1 viewport-fit=cover">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+    <h1 class="header__title">Росток 🌿</h1>
+    <button type="button" class="btn btn__toggle-theme" aria-label="Toggle theme">🌙</button>
+</header>
+
+<main class="main">
+    <div class="content">
+        <!-- Блок подборщик -->
+        <div class="quiz__banner">
+            <h2>Не знаете, какое растение выбрать?</h2>
+            <p>Пройдите короткий тест, и мы подберем идеальный цветок под ваше освещение и образ жизни!</p>
+            <button type="button" class="btn btn__quiz">Подобрать растение</button>
+        </div>
+
+        <!-- Блок Поиска по названию -->
+        <div class="search__wrapper">
+            <input type="text" class="search__input" placeholder="Введите название (например, Monstera)..." inputmode="search">
+            <button type="button" class="btn btn__search">Искать 🔎</button>
+        </div>
+
+        <!-- Контейнер для карточек, которые прилетят от сервера -->
+        <div class="search__results"></div>
+<!--        <div class="search__results">-->
+<!--            &lt;!&ndash; Карточка-шаблон для CSS &ndash;&gt;-->
+<!--            <article class="plant__card">-->
+<!--                <img src="https://unsplash.com" alt="Monstera Deliciosa" class="plant__img">-->
+<!--                <div class="plant__info">-->
+<!--                    <h3 class="plant__title">Monstera Deliciosa</h3>-->
+<!--                    <p class="plant__desc">Идеально для яркого рассеянного света. Безопасно для забывчивых хозяев.</p>-->
+<!--                </div>-->
+<!--            </article>-->
+<!--        </div>-->
+    </div>
+</main>
+
+<script src="app.js" type="module"></script>
+
+</body>
+</html>
