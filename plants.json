@@ -34,5 +34,41 @@
     "water": "normal",
     "img": "images/Chlorophytum.jpg",
     "desc": "100% БЕЗОПАСНО ДЛЯ КОШЕК И СОБАК! Очень выносливое и полезное комнатное растение."
+  },
+  {
+    "id": 5,
+    "name": "Boston Fern (Нефролепис)",
+    "light": "shadow",
+    "pets": "safe",
+    "water": "frequent",
+    "img": "images/Boston-Fern.jpeg",
+    "desc": "ВОТ ОН! Идеален для тени и на 100% безопасен для домашних животных. Любит влажность."
+  },
+  {
+    "id": 6,
+    "name": "Calathea (Калатея маранта)",
+    "light": "shadow",
+    "pets": "safe",
+    "water": "normal",
+    "img": "images/Calathea.jpg",
+    "desc": "Потрясающие узорчатые листья. Прекрасно чувствует себя в полутени и полностью безопасна для питомцев."
+  },
+  {
+    "id": 7,
+    "name": "Succulents (Микс Суккулентов)",
+    "light": "bright",
+    "pets": "safe",
+    "water": "rare",
+    "img": "images/Succulents.jpg",
+    "desc": "Маленькие зеленые крепыши. Требуют много яркого солнца, редкого полива и абсолютно дружелюбны к кошкам."
+  },
+  {
+    "id": 8,
+    "name": "Ficus Elastica (Фикус Каучуконосный)",
+    "light": "bright",
+    "pets": "danger",
+    "water": "normal",
+    "img": "images/Ficus-Elastica.jpeg",
+    "desc": "Мощное растение с глянцевыми крупными листьями. Любит солнце, но его сок токсичен для животных."
   }
 ]
