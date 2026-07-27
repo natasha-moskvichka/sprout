@@ -18,6 +18,11 @@ if (savedTheme !== null && savedTheme === 'dark') {
 const renderPlants = (plantsArray) => {
     resultContainer.innerHTML = '';
 
+    if (plantsArray.length === 0) {
+        resultContainer.innerHTML = '<p class="search__empty">Под такие условия растений не найдено 🌿</p>'
+        return;
+    }
+
     plantsArray.forEach(plant => {
         const cardHTML = `
             <article class="plant__card">
